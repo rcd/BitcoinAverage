@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Bitcoin Average [USD]",
+  "description": "Displays the last USD index price from BitcoinAverage.com",
+  "homepage_url": "https://github.com/rcd/BitcoinAverage",
+  "version": "0.0.1",
+  "permissions": ["alarms"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
